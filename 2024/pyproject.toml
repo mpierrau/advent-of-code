@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "Advent Of Code 2024"
+version = "0.0.1"
+description = "Solutions to the Advent Of Code 2024 Challenge"
+authors = ["Magnus Pierrau <magnus.pierrau@algodx.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11.5, <3.13"
+pydantic = "^2.10.4"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+isort = "^5.13.2"
+autoflake = "^2.3.1"
